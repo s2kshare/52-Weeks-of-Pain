@@ -1,0 +1,14 @@
+Error Log
+========================================
+<2024-10-20 14:53:58>
+[ERROR]: Unable to GET HTML
+[ERR_MSG]: HTTPSConnectionPool(host='www.fe314gle.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000026A59433C80>: Failed to resolve 'www.fe314gle.com' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+<2024-10-20 14:54:05>
+[ERROR]: Unable to GET HTML
+[ERR_MSG]: HTTPSConnectionPool(host='www.fe314gle.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000159C417C9E0>: Failed to resolve 'www.fe314gle.com' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+<2024-10-20 14:54:24>
+[ERROR]: Unable to GET HTML
+[ERR_MSG]: HTTPSConnectionPool(host='www.fe314gle.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000156FEC56C00>: Failed to resolve 'www.fe314gle.com' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
