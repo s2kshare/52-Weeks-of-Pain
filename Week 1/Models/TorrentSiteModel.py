@@ -24,6 +24,8 @@ class TorrentSiteModel:
                 full_query = f"{url}{search_query}{query}{increment_format}"
             if (site_name == "bitsearch"):
                 full_query = f"{url}{search_query}{query}{increment_format}{increment}"
+
+            print(f"\n\n[URL] >> {full_query}\n\n")
             return full_query
         else:
             self.err.set_error_title("Site not found")
