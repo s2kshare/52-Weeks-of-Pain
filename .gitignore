@@ -1,0 +1,10 @@
+# Ignore all node_modules directories
+node_modules/
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore Python egg-info and dist-info directories
+*.egg-info/
+*.egg/
+*.whl

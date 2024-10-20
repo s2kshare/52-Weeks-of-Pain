@@ -7,7 +7,15 @@ from Models.TorrentSiteModel import TorrentSiteModel
 err = ErrorHandler()
 tsm = TorrentSiteModel()
 
+print("_"*25 + "\n\n     TORRENT  SEARCH     \n" + "_"*25 + "\n")
+user_input = input("  Search Query:  ")
+
+
+
+# Fetching Webpages
 try:
+    # Using "TorrentSiteModel"
+
     # Fetching HTML to a specified URL
     response = requests.get("https://www.google.com/");
     
@@ -24,6 +32,4 @@ except requests.exceptions.RequestException as e:
     err.set_error_message(str(e))
     err.log_error()
 
-print("_"*25 + "\n\n     TORRENT  SEARCH     \n" + "_"*25 + "\n")
 
-user_input = input("  Search Query:  ")
