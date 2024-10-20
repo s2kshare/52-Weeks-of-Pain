@@ -35,6 +35,18 @@ try:
     # Print HTML
     elements = tss.scrape_html('1337', html_content)
 
+    # Print all torrent elements if exists
+    for torrent in elements:
+        if torrent.name != "No Name Found":
+            print("-"*25)
+            print(f"Name: {torrent.name}")
+            print(f"Seeders: {torrent.seeds}")
+            print(f"Leechers: {torrent.leechers}")
+            print(f"Size: {torrent.size}")
+            print(f"Uploader: {torrent.uploader}")
+            print(f"URL: {torrent.url}")
+            print()
+
 
 except requests.exceptions.RequestException as e:
     err.set_error_title("Unable to GET HTML.")

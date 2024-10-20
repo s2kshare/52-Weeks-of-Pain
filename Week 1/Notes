@@ -1,0 +1,4 @@
+TODO:
+    Config currently holds a fixed list of ElementPrefixs
+        However, On 1337x, the user can either be "uploader" or "user"
+        Find a way to dynamically load this
