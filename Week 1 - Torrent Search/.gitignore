@@ -1,0 +1,30 @@
+# Ignore all node_modules directories
+node_modules/
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore Python egg-info and dist-info directories
+*.egg-info/
+*.egg/
+*.whl
+
+# Virtual Envrionment
+torrent-scrape-env/
+
+# Log File
+*.log
+
+# Ignore OS-specific files (Windows, MacOS)
+.DS_Store
+Thumbs.db
+
+# Ignore other common virtual environments or cache directories
+env/
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo

@@ -1,0 +1,21 @@
+
+[DATA COMPRESSION ERROR LOG]
+          [s2k]
+
+____________________________
+   <Time: 21/10/2024 1:53:48 pm> : [FILEREAD]: File read successfully! Byte array length: 2109124
+   <Time: 21/10/2024 1:53:49 pm> : [SIZE]: Original   >> 7506285
+   <Time: 21/10/2024 1:53:49 pm> : [SIZE]: Compressed >> 7493536
+   <Time: 21/10/2024 1:53:49 pm> : [OUTPUT]: Successful Compression
+   <Time: 21/10/2024 1:54:22 pm> : [FILEREAD]: File read successfully! Byte array length: 2109124
+   <Time: 21/10/2024 1:54:22 pm> : [CHECK]: Created Compressed file!
+   <Time: 21/10/2024 1:54:22 pm> : [CHECK]: Created Original file!
+   <Time: 21/10/2024 1:54:22 pm> : [SIZE]: Original   >> 7506285
+   <Time: 21/10/2024 1:54:22 pm> : [SIZE]: Compressed >> 7493536
+   <Time: 21/10/2024 1:54:22 pm> : [OUTPUT]: Successful Compression
+   <Time: 21/10/2024 1:55:21 pm> : [FILEREAD]: File read successfully! Byte array length: 2109124
+   <Time: 21/10/2024 1:55:21 pm> : [CHECK]: Created Compressed file!
+   <Time: 21/10/2024 1:55:21 pm> : [CHECK]: Created Original file!
+   <Time: 21/10/2024 1:55:21 pm> : [SIZE]: Original   >> 7506285
+   <Time: 21/10/2024 1:55:21 pm> : [SIZE]: Compressed >> 7493536
+   <Time: 21/10/2024 1:55:21 pm> : [OUTPUT]: Successful Compression
